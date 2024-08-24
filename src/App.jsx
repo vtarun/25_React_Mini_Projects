@@ -6,17 +6,21 @@ import StarRating from './components/star-rating';
 import Carousel from './components/carousel';
 import QRCodeGenerator from './components/qr-code-generator';
 import ToggleTheme from './components/toggle-theme';
+// import ScrollTopAndBottom from './components/scroll-to-top-bottom';
+import ScrollTopAndBottom from './components/scroll-to-top-bottom/scroll-to-section';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Accordian />
+      {/* <Accordian />
       <StarRating />
       <Carousel />
       <QRCodeGenerator />
-      <ToggleTheme />
+      <ToggleTheme /> */}
+      {/* <ScrollTopAndBottom /> */}
+      <ScrollTopAndBottom />
     </>
   )
 }
