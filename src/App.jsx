@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+
 import Accordian from './components/accordian';
 import StarRating from './components/star-rating';
 import Carousel from './components/carousel';
+import QRCodeGenerator from './components/qr-code-generator';
+import ToggleTheme from './components/toggle-theme';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,8 @@ function App() {
       <Accordian />
       <StarRating />
       <Carousel />
+      <QRCodeGenerator />
+      <ToggleTheme />
     </>
   )
 }
