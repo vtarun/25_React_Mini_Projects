@@ -8,6 +8,7 @@ import QRCodeGenerator from './components/qr-code-generator';
 import ToggleTheme from './components/toggle-theme';
 // import ScrollTopAndBottom from './components/scroll-to-top-bottom';
 import ScrollTopAndBottom from './components/scroll-to-top-bottom/scroll-to-section';
+import Quiz from './components/quiz';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
       <QRCodeGenerator />
       <ToggleTheme /> */}
       {/* <ScrollTopAndBottom /> */}
-      <ScrollTopAndBottom />
+      {/* <ScrollTopAndBottom /> */}
+      <Quiz />
     </>
   )
 }
